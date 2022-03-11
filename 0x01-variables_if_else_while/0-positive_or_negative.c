@@ -6,8 +6,9 @@
  * Return: This method does not return any value
  */
 int main(void)
-{
-	int n = rand();
+{	
+	srand(time(0));
+	int n = rand() - RAND_MAX / 2;
 
 	if (n < 0)
 	{
