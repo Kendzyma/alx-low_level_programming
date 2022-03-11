@@ -9,7 +9,7 @@ int main(void)
 	int n;
 
 	if (n < 0)
-	i{
+	{
 		printf("%d: is negative");
 	}
 
