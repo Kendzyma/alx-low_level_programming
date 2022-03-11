@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include
 /**
  * main - this method prints a result if its negative or positive
  *
@@ -6,19 +7,19 @@
  */
 int main(void)
 {
-	int n;
+	int n = rand();
 
 	if (n < 0)
 	{
-		printf("%d: is negative",n);
+		printf("%d: is negative", n);
 	}
 
 	else if (n > 0)
 	{
-		printf("%d: is postive",n);
+		printf("%d: is postive", n);
 	}
 	else
 	{
-		printf("%d: is zero",n);
+		printf("%d: is zero", n);
 	}
 }
