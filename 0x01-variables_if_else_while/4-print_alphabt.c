@@ -12,11 +12,12 @@ int main(void)
 	{
 		if (a == 'q' || a == 'e')
 		{
-			continue;
+			a++;
 		}
 		else
 		{
 			putchar(a);
+			a++;
 		}
 	}
 	putchar('\n');
