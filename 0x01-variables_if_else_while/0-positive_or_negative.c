@@ -7,7 +7,7 @@
  * Return: This method does not return any value
  */
 int main(void)
-{	
+{
 	int n;
 
 	srand(time(0));
@@ -20,7 +20,7 @@ int main(void)
 
 	else if (n > 0)
 	{
-		printf("%d is postive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else
 	{
