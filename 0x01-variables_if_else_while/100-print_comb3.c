@@ -12,7 +12,7 @@ int main(void)
 	{
 		int secondDigit = firstDigit + 1;
 
-		while (secondDigit)
+		while (secondDigit <= 9)
 		{
 			putchar(firstDigit + '0');
 			putchar(secondDigit + '0');
