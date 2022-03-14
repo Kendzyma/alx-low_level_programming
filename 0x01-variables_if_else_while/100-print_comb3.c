@@ -11,6 +11,7 @@ int main(void)
 	while (firstDigit <= 9)
 	{
 		int secondDigit = firstDigit + 1;
+
 		while (secondDigit)
 		{
 			putchar(firstDigit + '0');
