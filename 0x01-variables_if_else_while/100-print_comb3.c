@@ -22,8 +22,9 @@ int main(void)
 				putchar(',');
 				putchar(' ');
 			}
+			secondDigit++;
 		}
-		secondDigit++;
+		firstDigit++;
 	}
 	putchar('\n');
 	return (0);
