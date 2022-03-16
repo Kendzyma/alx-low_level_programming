@@ -10,18 +10,8 @@ void print_alphabet(void)
 
 	while (a <= 'z')
 	{
-		putchar(a);
+		_putchar(a);
 		a++;
 	}
-	putchar('\n');
-}
-/**
- * main - main function
- *
- * Return: nothing
- */
-int main(void)
-{
-	print_alphabet();
+	_putchar('\n');
 	return (0);
-}
