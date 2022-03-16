@@ -3,7 +3,7 @@
  * print_sign - This is a sign
  * @n: This is the parameter
  *
- * Returns: This returns type
+ * Return: This returns type
  */
 int print_sign(int n)
 {
