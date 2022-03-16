@@ -1,12 +1,11 @@
 #include "main.h"
-#include <ctype.h>
 /**
  * _isalpha - This is alpha
  * @c: The input
  *
  * Return: Returns no value
  */
-int _isalphabet(int c)
+int _isalpha(int c)
 {
 	if (c >= 'a' && c <= 'z')
 	{
