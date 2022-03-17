@@ -1,20 +1,19 @@
 #include "main.h"
 /**
- * print_most_numbers - Hellow
+ * print_most_numbers - hello
  *
- * Return: tedds
+ * Return: yes return
  */
 void print_most_numbers(void)
 {
 	int i = 0;
 
-	while (i <= 9)
+	while(i <= 0 )
 	{
-		if (!(i == 2 || i == 4))
+		if(!(i == 2 || i == 4))
 		{
-			_putchar(i + '0');
-			i++;
+			_putchar(c);
 		}
+		i++;
 	}
-	_putchar('\n');
 }
