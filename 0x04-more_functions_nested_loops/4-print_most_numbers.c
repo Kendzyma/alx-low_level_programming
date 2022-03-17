@@ -1,20 +1,21 @@
 #include "main.h"
+
 /**
- * print_most_numbers - Hellow
- *
- * Return: tedds
+ * print_most_numbers - prints numbers, from 0 to 9 except 2 and 4
+ * Return: void
  */
+
 void print_most_numbers(void)
 {
-	int i = 0;
+	char c = '0';
 
-	while (i <= 9)
+	while (c <= '9')
 	{
-		if (!(i == 2 || i == 4))
+		if (c != '2' && c != '4')
 		{
-			_putchar(i + '0');
-			i++;
+			_putchar(c);
 		}
+		c++;
 	}
 	_putchar('\n');
 }
