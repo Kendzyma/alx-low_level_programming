@@ -1,17 +1,18 @@
 #include "main.h"
+
 /**
- * print_numbers - Yea print smtg
- *
- * Return: The is goof
+ * print_numbers - prints numbers 0 to 9
+ * Return: void
  */
+
 void print_numbers(void)
 {
-	int i = 0;
+	char c = '0';
 
-	while (i <= 9)
+	while (c <= '9')
 	{
-		_putchar(i + '0');
-		i++;
+		_putchar(c);
+		c++;
 	}
 	_putchar('\n');
 }

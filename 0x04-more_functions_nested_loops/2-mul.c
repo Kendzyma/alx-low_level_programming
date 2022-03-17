@@ -1,14 +1,19 @@
 #include "main.h"
+#include <stdio.h>
+
 /**
- * mul - Yes this is digit
- * @a: yes o
- * @b: yead
+ * mul - multiplies two int
+ * @a: integer
+ * @b: integer
  *
- * Return: Returns a value
+ * Return: product
  */
+
 int mul(int a, int b)
 {
-	int result = a * b;
+	int product;
 
-	return (result);
+	product = a * b;
+
+	return (product);
 }

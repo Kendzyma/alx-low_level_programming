@@ -1,1 +1,1 @@
-Hello word
+Debugging and fixing errors in C
