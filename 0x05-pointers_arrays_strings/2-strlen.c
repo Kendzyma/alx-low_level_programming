@@ -1,15 +1,20 @@
 #include "main.h"
 #include <string.h>
 /**
- * _strlen - LEnght
- * @s: this is
+ * _puts - puts
+ * @str: yes str
  *
- * Return: returns nithing
+ * Return: this returns
  */
 
-int _strlen(char *s)
+void _puts(char *str)
 {
-	int len = strlen(*s);
+	int count = 0;
+	while (*str != '\0')
+	{
+		count++;
+		str++;
+	}
 
-	return (len);
+	return (count);
 }
